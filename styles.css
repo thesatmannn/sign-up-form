@@ -1,0 +1,23 @@
+.background {
+    background-image: url(./photo-1585202900225-6d3ac20a6962.avif);
+    width: 40vw;
+    height: 100vh;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo-background {
+width: auto;
+background-color:black;
+opacity: 0.3;
+padding: 15px;
+}
+
+.odin {
+
+    size: 10vh;
+}
