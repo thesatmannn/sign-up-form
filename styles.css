@@ -63,6 +63,7 @@ form {
     padding-top: 20px;
     padding-bottom: 20px;
     padding: 4vw;
+    
 
 }
 
@@ -78,3 +79,39 @@ p1, p2, legend {
 legend {
     width: 100%;
 }
+
+.bottom-stuff {
+    display: flex;
+    padding: 4vw;
+    
+}
+ input {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(224, 224, 224);
+    font-size: .9rem;
+    margin-top: 3px;
+ }
+
+.input-section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+button[type='submit'] {
+    padding: .8rem 1.3rem;
+    font-size: 1.3rem;
+    background-color: rgb(99, 180, 6);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    letter-spacing: -1px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.253);
+  }
+
+button[type='submit']:hover {
+    background-color: rgb(48, 133, 52);
+  }
